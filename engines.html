@@ -6,59 +6,45 @@
   <h1>robot control panel</h1>
   <p>drag sliders to choose the range </p>
 
-  <div class="rangeslider">
+<form action="save.php">
+
 engine1: <input type="range" id="engine1" min="1" max="100" value="0">
 <button type="button" onclick="engine1()">view value</button>
 <p id="demo1"></p>
-</div>
 
-<div class="rangeslider">
 engine2: <input type="range" id="engine2" min="1" max="100" value="0">
 <button type="button" onclick="engine2()">view value</button>
 <p id="demo2"></p>
-</div>
 
-<div class="rangeslider">
 engine3: <input type="range" id="engine3" min="1" max="100" value="0">
 <button type="button" onclick="engine3()">view value</button>
 <p id="demo3"></p>
-</div>
 
-<div class="rangeslider">
 engine4: <input type="range" id="engine4" min="1" max="100" value="0">
 <button type="button" onclick="engine4()">view value</button>
 <p id="demo4"></p>
-</div>
 
-<div class="rangeslider">
 engine5 : <input type="range" id="engine5" min="1" max="100" value="0">
 <button type="button" onclick="engine5()">view value</button>
 <p id="demo5"></p>
-</div>
 
 <br>
 
-<div class="rangeslider">
 engine6 : <input type="range" id="engine6" min="1" max="100" value="0">
 <button type="button" onclick="engine6()">view value</button>
 <p id="demo6"></p>
-</div>
 
 <br>
 
 
-<div class="rangeslider">
   <input type="button" value="display engines data " onclick="display()">
-</div>
 
 <br>
 
-<div class="rangeslider">
   <button id="save"> save engines data</button>
-</div>
 
 
-
+</form>
 
 
 
@@ -137,6 +123,8 @@ function display(){
 
 
 </script>
+
+</form>
 
 </body>
 </html>
